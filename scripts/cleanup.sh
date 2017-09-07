@@ -1,6 +1,6 @@
 #!/bin/bash
-set -eux
 
-dd if=/dev/zero of=/EMPTY bs=1M
-rm -f /EMPTY
-sync
+sudo dd if=/dev/zero of=/EMPTY bs=1M
+sudo rm -f /EMPTY
+sudo sync
+exit 0

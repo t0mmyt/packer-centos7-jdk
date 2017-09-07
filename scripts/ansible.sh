@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
 
-yum -y install epel-release
-yum -y install ansible
+sudo yum -y install epel-release
+sudo yum -y install ansible
