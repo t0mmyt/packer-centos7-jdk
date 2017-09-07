@@ -1,0 +1,6 @@
+.DS_Store
+*.box
+*.iso
+*.vdi
+.vagrant/*
+packer_cache/*
